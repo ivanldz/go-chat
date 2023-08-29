@@ -1,25 +1,24 @@
 # GoChat
 
-**GoChat** es un proyecto en desarrollo que busca desarrollar un chat en Go utilizando los frameworks Gin y Gorm. El objetivo es proporcionar una plataforma para la comunicación entre usuarios, con autenticación y generación de mensajes entre ellos.
-Este proyecto solo el servicio Backend, puede ver el cliente en este [reporistorio](https://github.com/ivanleodomin/GoChat-Client)
+**GoChat** is an ongoing project aiming to develop a chat application in Go using the Gin and Gorm frameworks. The goal is to provide a platform for communication between users, with authentication and message generation among them. This project encompasses only the Backend service; you can find the client in this [repository](https://github.com/ivanleodomin/GoChat-Client).
 
-Características
-Registro y autenticación de usuarios.
-Generación de mensajes en tiempo real entre usuarios.
-Manejo seguro de contraseñas utilizando técnicas de hashing y salting.
-Escalabilidad: la aplicación se puede escalar fácilmente para soportar grandes volúmenes de usuarios y mensajes.
-Alta disponibilidad: la aplicación puede ser desplegada en entornos de alta disponibilidad para garantizar el acceso a los usuarios.
-Tecnologías utilizadas
-El proyecto utiliza las siguientes tecnologías:
+## Features
+- User registration and authentication.
+- Real-time message generation between users.
+- Secure password handling using hashing and salting techniques.
+- Scalability: the application is designed for easy scalability to support large volumes of users and messages.
+- High availability: the application can be deployed in high availability environments to ensure user accessibility.
 
-- Go: lenguaje de programación utilizado para el desarrollo del back-end.
-- Gin: framework web utilizado para la creación de APIs RESTful y el enrutamiento de solicitudes HTTP.
-- Gorm: ORM utilizado para la interacción con la base de datos.
-- PostgreSQL: sistema de gestión de bases de datos utilizado para almacenar los datos de la aplicación.
-- WebSockets: protocolo utilizado para la comunicación en tiempo real entre los usuarios.
+## Technologies Used
+The project employs the following technologies:
+- Go: programming language used for backend development.
+- Gin: web framework used for creating RESTful APIs and routing HTTP requests.
+- Gorm: ORM used for database interaction.
+- PostgreSQL: database management system used for storing application data.
+- WebSockets: protocol used for real-time communication between users.
 
-## Instalación
-El proyecto todavía se encuentra en desarrollo y no está listo para su uso en producción. Si desea contribuir al proyecto, por favor consulte las sección de Contribución a continuación.
+## Installation
+The project is still in development and not ready for production use. If you'd like to contribute to the project, please refer to the Contribution section below.
 
-## Contribución
-Si desea contribuir a este proyecto, aconsejar sobre su desarrollo podés [escribirme](https://www.linkedin.com/in/ivan-leonel-dominguez/)
+## Contribution
+If you wish to contribute to this project or provide insights into its development, you can [contact me](https://www.linkedin.com/in/ivan-leonel-dominguez/).
